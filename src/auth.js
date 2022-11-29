@@ -25,7 +25,7 @@ export function authWithEmailAndPassword(email, password) {
         method: 'POST',
         body: JSON.stringify({
             email, password,
-            returnSecuredToken: true
+            returnSecureToken: true
         }),
         headers: {
             'Content-Type': 'application/json'
